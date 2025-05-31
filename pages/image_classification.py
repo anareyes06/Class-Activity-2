@@ -3,7 +3,7 @@ import tensorflow as tf
 import numpy as np
 from PIL import Image
 
-model = tf.keras.models.load_model("models/image_model.keras")
+model = tf.keras.models.load_model("Models/image_model.keras")
 
 st.title("🖼 Image Classification")
 
