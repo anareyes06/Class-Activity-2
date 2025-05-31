@@ -2,7 +2,7 @@ import streamlit as st
 import tensorflow as tf
 import numpy as np
 
-model = tf.keras.models.load_model("models/regression_model.keras")
+model = tf.keras.models.load_model("Models/regression_model.keras")
 
 st.title("📈 Regression Model")
 
